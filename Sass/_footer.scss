@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.footer__countainer{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%); 
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.footer__title{
+    font-family: "Mulish";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.footer__text{
+    font-family: "Mulish";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer__link{
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.footer__link:hover{
+    transition: 0.9s ease-in-out;
+    color: #67C3F3;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+.footer__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

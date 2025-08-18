@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.header__countainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header__link{
+    font-family: "Mulish";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1F1534;
+    
+}
+.header__link:hover{
+    font-family: "Mulish";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1F1534;
+    transition: 0.9s ease-in-out;
+}
+.bar{
+    width: 30px;
+    height: 4px;
+    margin: 3px;
+    background: black;
+    border-radius: 300px;
+}
+.bars{
+    display: none;
+}
+@media (max-width:700px) {
+    .header__list{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
+@media (max-width:900px) {
+    .header__link{
+        font-family: "Mulish";
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #1F1534;
+    }
+    .header__img{
+        width: 150px;
+        height: 31px;
+    }
+}
+@media (max-width:1080px) {
+    .header__link{
+        font-family: "Mulish";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #1F1534;
+    }
+    .header__link:hover{
+        transition: 0.9s ease-in-out;
+        color: #458FF6;
+    }
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.slider__countainer{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    width: 1200px;
+    height: 425px;
+    border-radius: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.slider__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.slider__title{
+    font-family: "Mulish";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.slider__title-name{
+    font-family: "Mulish";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.slider__text{
+    font-family: "Mulish";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #FFFFFFD9;
+    margin-top: -30px;
+}
+.slider__text-name{
+    font-family: "Mulish";
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #FFFFFFE5;
+}

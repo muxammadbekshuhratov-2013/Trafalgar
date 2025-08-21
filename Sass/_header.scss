@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+body {
+    transition: background-color 1s, color 0.3s;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+#toggle-icon {
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#toggle-icon:hover {
+    transform: scale(1.1);
+}
+
 .header__countainer{
     display: flex;
     align-items: center;

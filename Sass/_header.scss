@@ -19,7 +19,15 @@ body {
 #toggle-icon:hover {
     transform: scale(1.1);
 }
-
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    background: rgba(128, 128, 128, 0.4);
+}
 .header__countainer{
     display: flex;
     align-items: center;
